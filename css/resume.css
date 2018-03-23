@@ -30,6 +30,7 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  margin-bottom: 0rem;
 }
 
 .subheading {
@@ -53,10 +54,6 @@ h2 {
 
 .list-icons {
   font-size: 3rem;
-}
-
-.list-inline {
-  margin-bottom: 0rem;
 }
 
 .list-icons .list-inline-item i:hover {
@@ -106,6 +103,20 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  #sideNav .hoge-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+    margin-left: 18%;
+  }
+  #sideNav .hoge-collapse .list-inline-item {
+    display: flex;
+  }
+  #sideNav .hoge-collapse .list-inline-item .hoge2 {
+    display: flex;
+  }
 }
 
 section.resume-section {
@@ -120,7 +131,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 0vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -147,5 +158,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: black;
 }

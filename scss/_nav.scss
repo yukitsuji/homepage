@@ -48,5 +48,28 @@
         }
       }
     }
+    .hoge-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+
+      width: 100%;
+      margin-bottom: auto;
+      // padding-left: 0;
+      // padding-right: 0;
+      margin-left: 18%;
+      // margin-right: 0;
+      // .hoge1{
+      //   flex-direction: column;
+      //
+      //   width: 100%;
+      .list-inline-item {
+        display: flex;
+        .hoge2 {
+          display: flex;
+        }
+      }
+      // }
+    }
   }
 }
