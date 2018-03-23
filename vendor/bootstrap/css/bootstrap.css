@@ -108,7 +108,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 ol ol,
@@ -446,6 +446,8 @@ mark,
 
 .list-inline {
   padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
   list-style: none;
 }
 
