@@ -13,7 +13,9 @@ section.resume-section {
   section.resume-section {
     min-height: 0vh;
     .resume-item {
-      .resume-content {}
+      .resume-content {
+        padding-left: 25px;
+      }
       .resume-date {
         min-width: 18rem;
       }
